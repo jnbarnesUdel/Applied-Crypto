@@ -1,0 +1,14 @@
+
+Q3)
+a)
+If you expand the polonomial (N-1)^d and divide by N the only portion of it that will have
+a remainder will be the last portion of it with dN - 1 which has a remainder N-1 
+but if d is positive it will have the remainder -N + 1 since the last portion will 
+be dN + 1. Therefore (N-1)^d mod N = N-1 when d is odd
+
+for example if d is 3 then the polonomial expands to N^3 - 3N^2 +3N -1, when divided by N the
+only portions of this that has a remainder is 3N-1 with a remainder N-1 
+
+b)
+two coprime numbers that divide the same number must be lowest common denominators of that number 
+so if you multiply them together you will get a factor of that number.
