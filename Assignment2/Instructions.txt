@@ -1,0 +1,14 @@
+To run this code Qustion one must first be compiled with:
+gcc Question1.c -lssl -lcrypto
+
+it must then be run with:
+curl 'https://www.random.org/cgi-bin/randbyte?nbytes=50&format=h' | ./a.out
+
+The curl is needed to fetch the bits from random.org and pipe them into the program
+
+Question two can be compiled normaly like:
+gcc Question2.c
+
+then run normaly like:
+./a.out
+
